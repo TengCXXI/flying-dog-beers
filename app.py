@@ -4,17 +4,17 @@ import dash_html_components as html
 import plotly.graph_objs as go
 
 ########### Define your variables
-beers=['Chesapeake Stout', 'Snake Dog IPA', 'Imperial Porter', 'Double Dog IPA']
-ibu_values=[35, 60, 85, 75]
-abv_values=[5.4, 7.1, 9.2, 4.3]
-color1='darkred'
-color2='orange'
-mytitle='Beer Comparison'
-tabtitle='beer!'
-myheading='Flying Dog Beers'
-label1='IBU'
-label2='ABV'
-githublink='https://github.com/austinlasseter/flying-dog-beers'
+beers=['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+ibu_values=[35, 60, 85, 75, 100, 125, 100]
+abv_values=[5.4, 7.1, 9.2, 4.3, 7.4, 10.5, 8.2]
+color1='yellow'
+color2='brown'
+mytitle='Daily Intake'
+tabtitle='Bender!'
+myheading='Bender Alcohol Consumption'
+label1='Beer'
+label2='Liquor'
+githublink='https://github.com/tengcxxi/flying-dog-beers'
 sourceurl='https://www.flyingdog.com/beers/'
 
 ########### Set up the chart
